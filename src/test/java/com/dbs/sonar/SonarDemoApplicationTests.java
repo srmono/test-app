@@ -11,17 +11,17 @@ import com.dbs.sonar.controller.MessageController;
 @SpringBootTest
 class SonarDemoApplicationTests {
 	
-	@Autowired
-	private MessageController controller;
+//	@Autowired
+//	private MessageController controller;
 
 	@Test
 	void contextLoads() {
 	}
 	
-	@Test
-	void testGetMessage() {
-		String message = controller.getMessage();
-		Assertions.assertNotNull(message);
-	}
+//	@Test
+//	void testGetMessage() {
+//		String message = controller.getMessage();
+//		Assertions.assertNotNull(message);
+//	}
 
 }
